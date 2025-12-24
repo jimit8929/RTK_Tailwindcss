@@ -10,7 +10,7 @@ const Hero = () => {
         </svg>
       </div>
 
-      <h1 className='hero-title'>Magnically simplify accounting and taxes</h1>
+      <h1 className='hero-title'>Magically simplify accounting and taxes</h1>
 
       <p className="hero-subtitle">
         Automated bookkeeping, effortless tax filing, real-time insights. Set up in 10 mins. Back to building by 4.28pm.

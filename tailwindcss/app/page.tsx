@@ -7,12 +7,20 @@ import React from 'react'
 const page = () => {
   return (
     <div className="layout">
-      <Container>
+      <div className="layout-lines-container">
         <div className="left-line" />
         <div className="right-line" />
+      </div>
+      <Container>
+
         <Navbar />
         <Hero />
       </Container>
+
+      <div className="hero-image-container">
+        <div className="horizontal-line"></div>
+        <img src="./hero-ui-v6.webp" alt="" className="hero-image" />
+      </div>
     </div>
   )
 }
