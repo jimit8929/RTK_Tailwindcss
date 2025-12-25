@@ -26,7 +26,7 @@ export default function Home() {
             draggable={false}
             loading="lazy"
             className="rounded-2xl w-full object-cover object-left
-            border border-neutral-200 shadow-2xl [mask-image:linear-gradient(to_bottom,black_40%,transparent_100%)]
+            border border-neutral-200 shadow-2xl mask-[linear-gradient(to_bottom,black_40%,transparent_100%)]
             "
           />
         </div>
