@@ -1,8 +1,9 @@
 import React from 'react'
+import { cn } from '../lib/utils'
 
-export const Container = ({children} : {children:React.ReactNode}) => {
+export const Container = ({ children, className }: { children: React.ReactNode, className?: string }) => {
   return (
-    <div className='container'>{children}</div>
+    <div className={cn("w-full max-w-7xl mx-auto px-4 md:py-8 relative z-10", className)}>{children}</div>
   )
 }
 

@@ -1,28 +1,45 @@
-import React from 'react'
+import React from "react";
 
-const Hero = () => {
+export const Hero = () => {
   return (
-    <div className='hero-root'>
-      <div className="badge">
-        <span>What are form 1099 filing requirements?</span>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-        </svg>
+    <div className="px-4 py-2 flex items-center flex-col w-full my-20">
+      <button
+        className="border border-gray-200 bg-slate-100 text-gray-900 px-4 py-2
+      hover:bg-[#E4E8EE] transition duration-200 cursor-pointer rounded-full 
+      "
+      >
+        What are early stage tax requirements?
+      </button>
+
+      <div>
+        <h1 className="font-semibold mt-8 text-5xl text-black tracking-tight text-center">
+          Magically Simplify <br /> Accounting and Taxes
+        </h1>
+        <p className="max-w-xl text-center mt-4 mx-auto text-base text-neutral-700">
+          Automated bookkeeping. Effortless tax filing. Financial clarity. Set
+          up in 10 mins. Back to building by 12:43am.
+        </p>
       </div>
 
-      <h1 className='hero-title'>Magically simplify accounting and taxes</h1>
+      <div className="flex items-center gap-4 mt-6">
+        <button
+          className="bg-[#2679F3] text-white px-4 py-2 rounded-lg font-bold
+      shadow-lg text-shadow-md tracking-wide cursor-pointer
+      "
+        >
+          Get Started
+        </button>
 
-      <p className="hero-subtitle">
-        Automated bookkeeping, effortless tax filing, real-time insights. Set up in 10 mins. Back to building by 4.28pm.
-      </p>
-
-      <div className="hero-cta">
-        <button className="btn">Start Free Trial</button>
-        <button className="btn btn-secondary"><span>Pricing {"→"}</span>
+        <button
+          className="text-black px-4 py-2 rounded-lg font-bold
+      text-shadow-md tracking-wide cursor-pointer
+      "
+        >
+          Pricing &rarr;
         </button>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
